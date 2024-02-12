@@ -1,4 +1,4 @@
-import bannerimg from "../../../../../src/assets/images/result.png";
+import bannerimg from "../../../../../src/assets/images/passport_pic_without_backgr.png";
 import Typewriter from "react-ts-typewriter";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -31,7 +31,7 @@ const Banner = () => {
               data-aos-duration="1000"
               className="text-purple-800"
             >
-              <Typewriter text=" Tamzid Ull Monir ," />
+              <Typewriter text=" Md.Adnan Ul Karim ," />
             </span>
           </span>{" "}
           <br />
@@ -41,16 +41,16 @@ const Banner = () => {
             data-aos-duration="1500"
           >
             {" "}
-            A passionate web developer dedicated to crafting exceptional online
-            experiences. With a keen eye for design and a love for coding, I
-            specialize in creating dynamic and user-friendly websites that leave
-            a lasting impression. From front-end development using HTML, CSS,
-            and JavaScript to back-end programming with expressjs and Mongodb
-            and many more.
+            I am a highly ambitious and self-motivated person preparing myself all
+along for the competitive world through 4 years of B.Sc. in CSE and 1.5
+years of M.Engg in CSE courses along with practical work experience. I
+believe good communication skill and technical skill are the keys to
+developing a smooth career path and now with honesty and hard work, I
+am ready to serve any organization with my best.
           </span>
         </p>
         <a
-          href="https://drive.google.com/file/d/1iLG3jpcDCZ4UM1uKMLdHwF4Dgvpk30iH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1QFRiRvOCioPTLkMsAbQJU-vNZ04_Su82/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="mt-20 ">
                 <footer className="border-t-2 border-[#5BCCF6] footer footer-center p-4 text-base-content font-semibold ">
                     <div>
-                        <p>Copyright  2023 - All right reserved by Tamzid Ull Monir</p>
+                        <p>Mobile:01521222080/email:adnankarimctg@gmail.com</p>
                     </div>
                 </footer>
             </div>

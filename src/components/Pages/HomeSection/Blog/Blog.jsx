@@ -1,4 +1,5 @@
-import blogimg from '../../../../../src/assets/images/blogimg1.png'
+import blogimg from '../../../../../src/assets/images/passport.jpg'
+import { FaFilePdf } from "react-icons/fa6";
 import Typewriter from 'react-ts-typewriter';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -9,7 +10,7 @@ const Blog = () => {
     return (
         <div className="py-20">
             <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">About Me</h2>
-            <hr className="border-[#5BCCF6]"/>
+            <hr className="border-[#5BCCF6]" />
 
             <div data-aos="zoom-in" className='ms-5 me-5 flex justify-center items-center mt-10 rounded-3xl  sm:relative shadow-xl'>
                 <div style={{ alignItems: "center", justifyContent: "center" }} className='grid sm: grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
@@ -17,13 +18,69 @@ const Blog = () => {
                         <img className='w-[350px] lg:ms-20 sm:ms-3' src={blogimg} alt="" />
                     </div>
                     <div className='lg:w-[550px] sm:w-[350px] lg:-ms-10 sm:ms-3 font-semibold'>
-                        <p>
-                            <span className='text-purple-800'><Typewriter text='Welcome to my portfolio website!' /></span>
-                            <br /> I am a passionate web developer with a keen eye for web development. With a deep love for creativity and a desire to make a positive impact, I constantly strive to push the boundaries of my craft. Whether it's through captivating designs, innovative solutions, or engaging . I believe that every project is an opportunity for growth, and I approach each one with curiosity, enthusiasm, and a commitment to excellence. My goal is to create meaningful experiences that resonate with audiences and leave a lasting impression. Join me on this exciting journey as we bring ideas to life and make a difference together.
+                        <p className='pb-[50px]'>
+                            <span className='text-purple-800 pt-[20px]'><Typewriter text='Welcome to my portfolio website!' /></span>
+                            <br /> I have experience building Full-Stack Web Applications and Restful API’s using languages and frameworks including Laravel/PHP and VUE/JS. I am seeking a challenging but rewarding field that would make my career growth on the highest peak.<br />
+                            I created several projects using PHP / Laravel and uploaded in Git-hub. You can check out my git-hub link- github.com/AdnanKrim.<br /><br />
+                            As a junior programmer at the Rangamati Science and Technology University I have acquired skills in MYSQL and DBMS. I am good at data structure and algorithms.<br />
+                            In my previous jobs, I experienced about back-end development, building APIs, building server-side logic and many more logical operations.
+                            I could offer you services in the following areas:<br />
+                            •	Developing and maintaining web applications using PHP/Laravel frameworks.<br />
+                            •	Database operation with SQL queries.<br />
+                            •	Using version control system such as git<br />
+                            •	Basic front-end design<br />
+                            Curious by nature, passionate, and looking for a collaborative environment where I can feel the impact of my work every day.<br />
+
                         </p>
                     </div>
                 </div>
             </div>
+                    {/* tablesection */}
+                    <div>
+                        <div className="overflow-x-auto mt-[100px] ">
+                            <h2 className="font-bold text-3xl uppercase flex justify-center mb-5">Education</h2>
+                            <table className="table table-zebra">
+                                {/* head */}
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Degree</th>
+                                        <th>Institution</th>
+                                        <th>document</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {/* row 1 */}
+                                    <tr>
+                                        <th>1</th>
+                                        <td>M.engg in CSE</td>
+                                        <td>Rangamati Science and Technology University</td>
+                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                    </tr>
+                                    {/* row 2 */}
+                                    <tr>
+                                        <th>2</th>
+                                        <td>B.Sc. in CSE</td>
+                                        <td>Rangamati Science and Technology University</td>
+                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                    </tr>
+                                    {/* row 3 */}
+                                    <tr>
+                                        <th>3</th>
+                                        <td>HSC</td>
+                                        <td>Govt. Haji Mohammad Mohsin College </td>
+                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>SSC</td>
+                                        <td>Govt. Muslim High School </td>
+                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
         </div>
     );
