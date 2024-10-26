@@ -28,7 +28,7 @@ import ss21 from '../../../../src/assets/images/marketien_restaurant/resturantPr
 const Restaurant = () => {
     return (
         <div>
-            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_2</h2>
+            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Restaurant</h2>
             <hr />
             <div className="flex justify-center items-center">
                 <div className="mt-20 grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 ">
@@ -100,15 +100,16 @@ const Restaurant = () => {
                         </Carousel>
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
-                    <p>
-• Laravel rest API, Auth with sanctum, json Web Token.<br /> <br />
-•Restaurant Admin Panel which consists menu Management, order management,account management, employee management, kitchen management etc.<br /> <br />
-• Pusher Notification, payment gateway (Bkash), SMS notification,
-graph API, Mail authentication, <br /> <br />
+                        <p>
+                            • email:admin@test.com Password:12345 <br /> <br />
+                            • Laravel rest API, Auth with sanctum, json Web Token.<br /> <br />
+                            •Restaurant Admin Panel which consists menu Management, order management,account management, employee management, kitchen management etc.<br /> <br />
+                            • Pusher Notification, payment gateway (Bkash), SMS notification,
+                            graph API, Mail authentication, <br /> <br />
 
-•Client side is built with react and server side is built with Laravel/PHP.
-<br /> <br />
-                    </p>
+                            •Client side is built with react and server side is built with Laravel/PHP.
+                            <br /> <br />
+                        </p>
                         <Link to="/">
                             <button className="btn  text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3">Back To Home</button>
                         </Link>

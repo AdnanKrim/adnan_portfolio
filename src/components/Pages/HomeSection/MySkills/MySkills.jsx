@@ -12,6 +12,7 @@ import mongodb from "../../../../../src/assets/icons/mysql.png";
 import expressjs from "../../../../../src/assets/icons/vue.png";
 import firebase from "../../../../../src/assets/icons/trello.png";
 import vite from "../../../../../src/assets/icons/vite.svg";
+import electron from "../../../../../src/assets/icons/Electron JS App.png";
 import axious from "../../../../../src/assets/icons/jquery.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -72,6 +73,17 @@ const MySkills = () => {
             <div className="inner-element">
               <img className="w-[100px]" src={node} alt="" />
               <h1 className="flex justify-center">node.js</h1>
+            </div>
+          </div>
+          {/* Electron logo  */}
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="700"
+            className="shadow-2xl bg-transparent border-t-2 border-slate-300 p-2 rounded-lg w-[160px] flex justify-center">
+            <div className="inner-element">
+              <img className="w-[100px]" src={electron} alt="" />
+              <h1 className="flex justify-center">electron.js</h1>
             </div>
           </div>
           {/* React logo  */}

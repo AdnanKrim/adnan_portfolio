@@ -50,7 +50,7 @@ am ready to serve any organization with my best.
           </span>
         </p>
         <a
-          href="https://drive.google.com/file/d/1QFRiRvOCioPTLkMsAbQJU-vNZ04_Su82/view?usp=sharing"
+          href="https://drive.google.com/file/d/1YEiUQcOX_HObd63FlPUPn7JPks_AYQhJ/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

@@ -12,7 +12,7 @@ import linkedin from "../../../../../src/assets/icons/linkedin.png";
 import github from "../../../../../src/assets/icons/github.png";
 import emailjs from "emailjs-com";
 
-emailjs.init("PIOjzCl1ftxF_58QU");
+emailjs.init("wMOA1-3OUlmCo1Qd7");
 
 const MyEmail = () => {
   const handleSubmit = (event) => {
@@ -26,12 +26,12 @@ const MyEmail = () => {
     // })
     const params = {
       from_name: document.getElementById("fullName").value,
-      email_id: document.getElementById("email_id").value,
+      from_email: document.getElementById("email_id").value,
       subject: document.getElementById("subject").value,
-      Feedback: document.getElementById("message").value,
+      message: document.getElementById("message").value,
     };
     emailjs
-      .send("service_6cazdak", "template_42ulb2t", params)
+      .send("service_mo5aupc", "template_n35lkcc", params)
       .then(function (res) {
         // alert('Success!' + res.status);
         Swal.fire({
@@ -57,14 +57,14 @@ const MyEmail = () => {
             <img className="w-[500px] rounded-3xl mb-5" src={emailimg} alt="" />
             <p className="text-purple-900 font-semibold flex gap-3 items-center ms-3">
               <MdMarkEmailUnread className="text-red-500" /> E-mail :
-              tamzid620@gmail.com
+              adnankarimctg@gmail.com
             </p>
             <p className="text-purple-900 font-semibold flex gap-3 items-center ms-3">
-              <MdCall className="text-green-700" /> Phone : +8801852951963
+              <MdCall className="text-green-700" /> Phone : +8801521222080
             </p>
             <p className="text-purple-900 font-semibold flex gap-3 items-center ms-3">
               <MdWhatsapp className="text-green-500" /> what'sapp :
-              +8801757566555
+              +8801521222080
             </p>
             <p className="text-purple-900 font-semibold flex gap-3 items-center ms-3">
               <MdLocationOn className="text-yellow-400" /> Location :
@@ -77,25 +77,25 @@ const MyEmail = () => {
                 </h2>
                 <div className="grid grid-flow-col gap-4">
                   <div>
-                    <a href="https://www.facebook.com/tamzid.ull.monir512">
+                    <a href="https://www.facebook.com/adnan.karim.7146557">
                       <img style={{ width: "30px" }} src={facebook} alt="" />
                     </a>
                   </div>
 
-                  <div>
-                    <a href="https://www.instagram.com/Tamzid_Ull_Monir/">
+                  {/* <div>
+                    <a href="">
                       <img style={{ width: "30px" }} src={instagram} alt="" />
                     </a>
-                  </div>
+                  </div> */}
 
                   <div>
-                    <a href="https://www.linkedin.com/in/tamzid-monir-96b163260/">
+                    <a href="https://www.linkedin.com/in/adnan-karim-backdev">
                       <img style={{ width: "30px" }} src={linkedin} alt="" />
                     </a>
                   </div>
 
                   <div>
-                    <a href="https://github.com/tamzid620">
+                    <a href="https://github.com/AdnanKrim">
                       <img style={{ width: "30px" }} src={github} alt="" />
                     </a>
                   </div>
@@ -172,7 +172,7 @@ const MyEmail = () => {
                 </label>
                 <textarea
                   id="message"
-                  name="feedback"
+                  name="message"
                   rows="5"
                   required
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"

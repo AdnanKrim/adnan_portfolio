@@ -17,7 +17,7 @@ import ss10 from '../../../../src/assets/images/orchid_erp/orchid_pic_10.jpg'
 const Erp = () => {
     return (
         <div>
-            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_2</h2>
+            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Orchid_ERP</h2>
             <hr />
             <div className="flex justify-center items-center">
                 <div className="mt-20 grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 ">
@@ -56,19 +56,20 @@ const Erp = () => {
                         </Carousel>
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
-                    <p>
-• Here I worked and completed several modules as they are
-Purchase Module, Labor Management, Product Management,
-Supplier Module, Inventory Management, User Authentication.<br /> <br />
+                        <p>
+                            
+                            • Here I worked and completed several modules as they are
+                            Purchase Module, Labor Management, Product Management,
+                            Supplier Module, Inventory Management, User Authentication.<br /> <br />
 
-• I finished this project with Laravel and Vue.js <br /> <br />
+                            • I finished this project with Laravel and Vue.js <br /> <br />
 
-• I completed fully crud services, dynamic form-handlig with
-vue.js, Mail services with Mail trap, SMS Integration with
-bulkSMSbd, User Authentication, creating API, Stock
-Management, random Invoice No. generatiing and many more
-logical operations.<br /> <br />
-                    </p>
+                            • I completed fully crud services, dynamic form-handlig with
+                            vue.js, Mail services with Mail trap, SMS Integration with
+                            bulkSMSbd, User Authentication, creating API, Stock
+                            Management, random Invoice No. generatiing and many more
+                            logical operations.<br /> <br />
+                        </p>
                         <Link to="/">
                             <button className="btn  text-white bg-gradient-to-r from-stone-300 via-slate-500 to-zinc-300 hover:from-slate-200 hover:to-stone-400 mt-3">Back To Home</button>
                         </Link>

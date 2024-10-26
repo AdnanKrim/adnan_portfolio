@@ -23,7 +23,7 @@ const School = () => {
 
     return (
         <div>
-            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">Projects_1</h2>
+            <h2 className="font-bold text-3xl uppercase flex justify-center pt-20 mb-5">School Management</h2>
             <hr />
             <div className="flex justify-center items-center">
                 <div className="mt-20 grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 ">
@@ -75,6 +75,7 @@ const School = () => {
                     </div>
                     <div className="mt-20 w-full font-semibold lg:-ms-10 sm: ms-3">
                         <p>
+                            •  email:admin@test.com Password:1234567 <br /> <br />
                             • Laravel rest API, Auth with sanctum, json Web Token, Web socket, Payment Gateway,vonage sms <br /> <br />
                             • School Admin Panel which consists Student Management, Payment management,account management, Teacher management, Result management, Notice, Routine etc.<br /> <br />
                             • Pusher Notification, payment gateway (Bkash), SMS notification,

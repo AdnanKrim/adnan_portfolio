@@ -55,27 +55,27 @@ const Blog = () => {
                                         <th>1</th>
                                         <td>M.engg in CSE</td>
                                         <td>Rangamati Science and Technology University</td>
-                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                        <td><a href="https://drive.google.com/file/d/1Xy0JHci0Qrc72SyoxR2iChKjbw5-IXgg/view?usp=drive_link" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
                                     </tr>
                                     {/* row 2 */}
                                     <tr>
                                         <th>2</th>
                                         <td>B.Sc. in CSE</td>
                                         <td>Rangamati Science and Technology University</td>
-                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                        <td><a href="https://drive.google.com/file/d/1B105JIEYsW1lSwvpYkIKa7M4dhvswepz/view?usp=sharing" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
                                     </tr>
                                     {/* row 3 */}
                                     <tr>
                                         <th>3</th>
                                         <td>HSC</td>
                                         <td>Govt. Haji Mohammad Mohsin College </td>
-                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                        <td><a href="https://drive.google.com/file/d/1KBnh3btSBZryGknyA34NeXGIoWHoK4No/view?usp=sharing" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
                                     </tr>
                                     <tr>
                                         <th>4</th>
                                         <td>SSC</td>
                                         <td>Govt. Muslim High School </td>
-                                        <td><a href="https://github.com/AdnanKrim/Orchid_ERP/tree/master" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
+                                        <td><a href="https://drive.google.com/file/d/1TUgzkP32CttSMAL1MEm3FfTa6gLWP3MC/view?usp=sharing" target="_blank" rel="noreferrer" className="badge badge-info font-semibold border-gray-500 hover:bg-slate-400">pdf <FaFilePdf /></a></td>
                                     </tr>
                                 </tbody>
                             </table>
